@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:10%;
+}
+header .logo{
+    float:left;
+    margin-top: -5px;
+}
+header h3{
+    margin-top: 20px;
+    font-size:18px;
+    color:#FF5C45;
+    font-weight: bolder;
+}
+header h6{
+font-size: 10px;
+font-weight: lighter;
+color:#020313
+}
+.login-btn{
+    display: none;
+    color:#3DC28F;
+    background: linear-gradient(134.55deg, #FFE1A1 9.77%, #FEDC93 89.73%);
+    border-radius: 5px;
+    width:134px;
+    height:46px;
+    border:none;
+}
+.signup-btn{
+    display:none;
+    color:white;
+    background-color: #3DC28F;
+    border-radius: 5px;
+    width:134px;
+    height:46px;
+    border:none;
+}
+.menu-btn{
+    float:right;
+    margin-top:-25px;
+    margin-right:15px ;
+}
+.basic-info{
+    width:97%;
+    float: right;
+    background: -webkit-linear-gradient(134.55deg, #FFE1A1 9.77%, #FEDC93 89.73%);
+    text-align: center;
+}
+.basic-info p{
+    margin: 0px 10px 0px 20px;
+    text-align: center;
+}
+.search{
+    background-image:url(../images/Location-icon.svg); 
+    background-repeat: no-repeat; 
+    background-position: 3px 9px;
+    text-indent:27px;
+    border:none;
+    width:90%;
+    height:40px;
+    border-radius: 5px;
+    
+}
+.cities{
+    width:80%;
+    margin:5px 10px 80px 40px;
+}
+.cities h6{
+    float: left;
+    font-size: 10px;
+font-weight: normal;
+color:#020313;
+margin-left:5px;
+text-align: center;
+
+}
+.delivery-details{
+    
+    width:97%;
+    float: right;
+    margin-bottom:40px ;
+}
+.mini-heading{
+    color:#807F81;
+    font-size: 14px;
+    margin-top: 60px;
+    
+ }
+ .delivery-details h1{
+    color: #020313;
+ }
+ .learn-btn{
+    color:white;
+    background-color: #3DC28F;
+    border-radius: 5px;
+    width:120px;
+    height:30px;
+    border:none;
+    margin-top:20px
+ }
+ .quick-searches{
+    overflow: auto;
+     width:100%;
+     background-color:#fcf0f8;
+     margin-top: 30px;
+     
+ }
+ .quick-search-heading{
+    color:#807F81;
+    font-size: 14px;
+    margin-top: 30px;
+text-align: center;
+ }
+ .quick-searches h1{
+text-align: center;
+    color:#020313;
+ }
+ .searches{
+     display: flex;
+     flex-direction: column;
+     
+ }
+ .search-items{
+     text-align: center;
+ }
+ .item-img{
+     margin-top:10px ;
+ }
+ .explore-div{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .explore-btn{
+    color:white;
+    background-color: #3DC28F;
+    border-radius: 5px;
+    width:120px;
+    height:30px;
+    border:none;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.order-details{
+    margin-top:40px;
+    width:100%;
+}
+.order-details-heading{
+    color:#807F81;
+    font-size: 14px;
+    text-align: center;
+ }
+ .order-details h1{
+    text-align: center;
+    color:#020313;
+ }
+ .order-first-step{
+     
+     width:97%;
+     text-align: center;
+ }
+ .app-link{
+     margin-top: 20px;
+ }
+ .order-second-step{
+    text-align: center;
+    margin-top: 60px;
+}
+.order-third-step{
+
+    text-align: center;
+    margin-top: 60px;
+}
+.delivery-highlights{
+    overflow: auto;
+     width:100%;
+     background-color:#fcf0f8;
+     margin-top: 30px;
+     padding:0px 20px 160px;
+     
+     
+ }
+ .delivery-heading{
+    color:#807F81;
+    font-size: 14px;
+    text-align: center;
+    margin-top:40px
+ }
+ .delivery-highlights h1{
+    text-align: center;
+    color:#020313;
+ }
+ .min-order,.live-order-tracking,.delivery-bike{
+    text-align: center;
+    margin-top: 60px;   
+}
+ .no-min-order h5{
+     color:#020313;
+ }
+ .become-partner{
+     
+     position: absolute;
+     margin-top:-120px;
+     margin-left:15px;
+     width:90%;
+    background: linear-gradient(134.55deg, #FFE1A1 9.77%, #FEDC93 89.73%);
+    border-radius: 15px;
+text-align: left;
+padding:0px 20px 0px 20px;
+ }
+ .partner-img{
+    margin-top:-20px;
+ }
+.partner-btn-div{
+    display:inline
+}
+.partner-btn{
+    color:white;
+    background-color: #3DC28F;
+    border-radius: 5px;
+    width:240px;
+    height:40px;
+    border:none;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width:768px){
+    header{
+        background: -webkit-linear-gradient(134.55deg, #FFE1A1 9.77%, #FEDC93 89.73%);
+        padding:10px 0px 25px;
+        
+    }
+    header .logo{
+        float:left;
+        margin-top: 15px;
+    }
+   
+    .login-btn{
+        display: block;
+        float: right;
+        margin-top:-45px;
+        margin-right:15px ;
+    }
+    .signup-btn{
+        display:block;
+        float:right;
+        margin-top:-45px;
+        margin-right:15px ;
+    }
+    .menu-btn{
+        display:none;
+    }
+    .basic-info{
+        width:100%;
+        margin-top:-5px
+    }
+    .basic-info h1{
+       font-size:45px;
+    }
+    .search{
+        width:65%;
+        margin-top:20px
+    }
+    .cities{
+        width:60%;
+        text-align: center;
+        margin-left:170px
+    }
+    .delivery-details{
+    
+        width:90%
+    }
+    .delivery-details h1{
+        float: left;
+     }
+     .delivery-text{
+         width:50%;
+         float:left;
+     }
+     .delivery-img{
+         width:50%;
+         float:right;
+     }
+    .del-boy{
+        height:400px
+    }
+    .learn-btn{
+        margin-top: 50px;
+    }
+    .delivery-options{
+        display:flex;
+        margin-top:450px;
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right:30px ;
+    }
+    .searches{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-items{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    .order-first-step{
+        padding:0px 211px
+    }
+    .first-step,.second-step,.third-step{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .one-icon,.two-icon,.three-icon{
+        margin-right:10px;
+    }
+    .pay-img{
+        float: right;
+        width: 50%;
+
+    }
+    .schedule-pay{
+        height: 300px;
+    }
+    .pay-text{
+        float: left;
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        margin-top:120px
+    }
+    .delivery-highlights{
+        
+    }
+    .del-img{
+        float: left;
+        width:50%;
+    }
+    .delivered{
+        width:100%;
+        height: 250px;
+        margin-top: 120px;
+    }
+    .del-text{
+        float: right;
+        display: flex;
+        flex-direction: column;
+        width:50%;
+        margin-top:60px
+    }
+    .del-details{
+        display: flex;
+
+    }
+    .become-partner{
+    margin-left: 35px;
+    }
+    .become-partner-img{
+        float:right;
+        width:50%;    
+    }
+    .basic-info h1{
+        margin-top:40px ;
+    }
+}
